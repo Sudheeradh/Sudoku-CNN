@@ -16,7 +16,7 @@ The project is done in python language
 
 OpenCV was used to locate sudoku block. Various transformations are applied to obtain the sudoku block properly.
 
-Original image:
+Original image: <br>
 <img src = "process/0orig.jpg" width = 300px style = "padding:20px;"></img>
 
 After obtaining the largest contour:
