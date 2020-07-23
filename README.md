@@ -60,7 +60,7 @@ Adaptive thresholding is applied to get proper input: <br>
 
 ---
 ## Usage
-'python3 Sudoku.py'
+'python3 Sudoku.py' <br>
 The program asks for input image name. It has some sample images which can be used for prediction, their names being 1 to 6 repectively.
 Hence giving a number between 1-6 gives solution for one of the sample image.
 
