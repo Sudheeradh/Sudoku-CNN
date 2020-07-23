@@ -70,6 +70,9 @@ Hence giving a number between 1-6 gives solution for one of the sample image.
 <img src = "Solved/2.png" width = 300px style = "padding:20px;"></img>
 <img src = "Solved/3.png" width = 300px style = "padding:20px;"></img>
 <img src = "Solved/4.png" width = 300px style = "padding:20px;"></img>
+---
+The algorithm used for solving sudoku is published by Peter Norvig of MIT University and the source can be found here: <br>
+https://norvig.com/sudoku.html
 
 
 
