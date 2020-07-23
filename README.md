@@ -35,17 +35,17 @@ From the border, we transform perspective and get warped image: <br>
 Adaptive thresholding is applied to get proper input: <br>
 <img src = "process/6thresh.png" width = 300px style = "padding:20px;"></img>
 
-The output obtained is divided into 81 equal squares.
-Each square is the fed into the **CNN model** created with custom data to predict digit in the square.
-The deep learning model predicts and produces predictions as a string which are fed into the sudoku solving algorithm.
-The sudoku solving algorithm produces the solution as string. 
+The output obtained is divided into 81 equal squares. <br>
+Each square is the fed into the **CNN model** created with custom data to predict digit in the square. <br>
+The deep learning model predicts and produces predictions as a string which are fed into the sudoku solving algorithm. <br>
+The sudoku solving algorithm produces the solution as string. <br>
 The solution string is then mapped into the image with the help of **OpenCV** and **Numpy**.
 
 ---
 ## Usage
 'python3 Sudoku.py'
 The program asks for input image name. It has some sample images which can be used for prediction, their names being 1 to 6 repectively.
-Hence giving a number between 1-6 gives solution for one of the image.
+Hence giving a number between 1-6 gives solution for one of the sample image.
 
 ---
 
